@@ -1,0 +1,232 @@
+Onderdeel 2 - HTML elementen
+
+<!-- Image, audio & video
+
+Het plaatsen van foto's op een website is een belangrijke toevoeging voor velen. Zo bestaan de meeste websites uit een grote collectie van foto's. Vaak kun je logo's, teamfoto's of andere soorten afbeeldingen terugvinden op een website. Het stylen van de afbeeldingen komt later in het onderdeel CSS aanbod.
+
+1. Bij het inladen van een bestand is het noodzakelijk om de locatie van het bestand aan te geven. Dit kan op 2 manieren:
+Absolute path. Verwijst naar de gehele url gelinkt aan een file. 
+Relative path. Verwijst naar de bron van de file.
+Wat houden deze 2 paths in?
+
+Een image element is voor het inladen van een afbeelding. Afbeeldingen kunnen van verschillende formaat zijn. Bijvoorbeeld, een afbeelding kan een JPG formaat zijn.
+
+2. Zoek uit welke formaat afbeeldingen er nog meer kan zijn.
+Jpg. Png. Gif. Tiff.
+
+Een afbeelding tonen is afhankelijk van of de browser het ondersteunt. 
+Zoek uit welke browsers er zijn en maak een lijst van je antwoord.
+3. Brave. Chrome. Firefox. Opera. Edge. -->
+
+4. Onderzoek hoe het plaatsen van een foto gedaan wordt en plaats deze boven en onderaan je website door zowel gebruik
+te maken van de absolute path en relative path.
+
+Relative path
+<nav>
+  <img src="./Hond draak.jpg" alt="Hond draak" width="200" height="200">
+</nav>
+
+<br>
+
+Absolute path
+<footer>
+  <img
+    src="https://ae01.alicdn.com/kf/HTB1qAPPbQ5E3KVjSZFCq6zuzXXap/Nieuwe-Creatieve-Solid-Leuke-Pet-Hond-Kat-Groene-Dinosaurus-Draak-Fancy-Doek-Cosplay-Kostuum-Outfit-Kleding.jpg_q50.jpg"
+    alt="Hond draak" width="200" height="200">
+</footer>
+
+<!-- Aan de img element kan je ook de alt attribute gebruiken.  -->
+<!-- Wat houdt de alt attribute in? En waarom is het handig om de alt attribuut te gebruiken? -->
+<!-- Alt attribute geeft omschrijving van de image weer. Mocht de image niet zichtbaar zijn, dan verschijnt de omschrijving ipv de image. -->
+
+<!-- In de sound folder staat een explosion.mp3 bestand.  -->
+
+5. Laadt dit bestand in als een audio op het scherm.
+Extra: Maak het leuker door de audio op repeat te zetten.
+Tip: gebruik controls attribute om audio af te spelen.
+
+<br><br>
+
+<audio controls loop>
+  <source src="https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3"
+    name="file_example_MP3_700KB" title="Mysterious Music">
+  </source>
+</audio>
+
+<!-- Een audio bestand heeft verschillende formaten. Niet alle formaten worden ondersteund door de browser. Hiervoor is een oplossing voor.  -->
+
+<br><br>
+
+6. Speel een audio bestand af met
+<source> tag. Leg uit wat hier het voordeel van is.
+Met de source tag zoekt de browser naar een beschikbare bron.
+
+<br><br>
+
+<audio>
+  <source src="https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3" type="audio/mpeg">
+  </source>
+</audio>
+
+7. Zoek een willekeurig video en sla dit op in je computer. Laadt dit bestand in als een video op het scherm.
+Tip: De video is veel groter dan het scherm. Zoek uit welke attribuut je voor de video element kan gebruiken om de
+grootte van de video aan te passen.
+
+<br><br>
+
+<video width="300" height="200" autoplay muted>
+  <source src="Poor Abandoned Dog Is So Happy To Be Rescued, She Can t Stop Smiling.1080p.mp4" type="video/mp4">
+  </source>
+</video>
+
+<br><br>
+
+Een video bestand heeft verschillende formaten. Niet alle formaten worden ondersteund door de browser. Hiervoor is een
+oplossing voor.
+Speel een video bestand af met
+<source> tag. Leg uit wat hier het voordeel van is.
+Met de source tag zoekt de browser naar een beschikbare bron.
+
+<br><br>
+
+<iframe width="300" height="200" autoplay src="https://www.youtube.com/watch?v=_ecvXtMohsI" type="video/mp4"></iframe>
+
+<br><br>
+
+Lijsten
+
+Door gebruik te maken van lijsten in HTML kan je opsommingen eenvoudig weergeven. Onderzoek de verschillende soorten
+lijsten en op welke wijze je deze kunt toepassen.
+Maak gebruik van de verschillende soorten lijsten om het volgende resultaat op je webpagina weer te geven.
+<ol>
+  <li>item 1</li>
+  <li>item 2</li>
+  <li>item 3</li>
+</ol>
+
+<ol>
+  <li>item 1</li>
+  <li>item 2</li>
+
+  <ol>
+    <li> sub item 1</li>
+    <li> sub item 2</li>
+  </ol>
+
+  <li>item 3</li>
+</ol>
+
+<ul>
+  <li>item 1</li>
+  <li>item 2</li>
+  <li>item 3</li>
+  <ul>
+
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+
+      <ul>
+        <li>sub item 1</li>
+        <li>sub item 2</li>
+      </ul>
+
+      <li>item 3</li>
+    </ul>
+
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+
+      <ol>
+        <li>sub item 1</li>
+        <li>sub item 2</li>
+        <ol>
+
+          <li>item 3</>
+    </ul>
+    <br>
+    9. Bouw een navigatiebalk door gebruik te maken uit een lijst dat bestaat uit de volgende onderdelen.
+    <br><br>
+    <nav>
+      <ul>
+        <li>Tigers</li>
+        <li>Lions</li>
+        <li>Monkeys</li>
+        <li>Hippopotamus</li>
+      </ul>
+    </nav>
+
+    10. Creëer nu voor elk onderdeel een header en een bijbehorende stuk tekst en zorg ervoor dat door te klikken op
+    de links in de navigatiebalk je gerefereerd wordt naar het bijbehorende onderdeel. Zie hieronder een voorbeeld.
+    <br><br>
+
+    <ul>
+      <li>
+        <a href="#Tigers">Tigers</a>
+      </li>
+
+      <li>
+        <a href="#Lions">Lions</a>
+      </li>
+
+      <li>
+        <a href="#Monkeys">Monkeys</a>
+      </li>
+
+      <li>
+        <a href="#Hippopotamus"> Hippopotamus </a>
+      </li>
+    </ul>
+
+    <section>
+      <h2 id="Tigers">Tigers</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio, vero esse. Minima eos distinctio
+        tempore dignissimos maxime similique quas ex earum veritatis aperiam, atque possimus reiciendis voluptate,
+        officia velit quibusdam amet! Iure labore aliquid consequuntur nam, beatae eligendi delectus odio deserunt.
+        Error cum nam similique? Eos velit perferendis ducimus veritatis officiis ad nostrum neque tempora dolores,
+        voluptatum ea, est numquam repellendus cupiditate et quam itaque iste! Perferendis, esse quo mollitia
+        aspernatur numquam quasi iusto. Cumque debitis accusantium nostrum ipsum, optio libero labore assumenda
+        reprehenderit exercitationem. Repudiandae minima sunt perspiciatis voluptates cumque, non nam eveniet? Fuga
+        nesciunt delectus alias sunt recusandae.</p>
+    </section>
+
+    <section>
+      <h2 id="Lions">Lions</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae quas dolorum voluptates deleniti voluptatum
+        itaque modi illum neque. Enim magni minima minus sit quos dolorum, eaque, perferendis similique vel possimus
+        corrupti? Id illo earum exercitationem voluptatem repellendus dolores doloribus nam iste, error doloremque,
+        at, est aliquid accusantium vel architecto cumque repudiandae dolor laboriosam iure commodi voluptatum
+        ducimus quo quaerat? Vero id, aliquid nulla iste atque nisi excepturi eos nobis ipsam blanditiis rem
+        architecto a ex ad sapiente ab provident sit suscipit necessitatibus recusandae? Repudiandae sed eligendi
+        quia, sapiente aperiam quos porro, eaque, unde cum facere labore! Praesentium obcaecati dignissimos aperiam!
+      </p>
+    </section>
+
+    <section>
+      <h2 id="Monkeys">Monkeys</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis excepturi optio perferendis autem unde
+        ullam nisi. Doloremque sequi odit temporibus? Minus, fugiat, debitis veritatis suscipit eveniet excepturi
+        dolorem optio provident ex a nihil tenetur cupiditate, quibusdam harum amet ratione? Animi, tenetur. Maxime,
+        sit eos? Magnam consequatur sunt ut non obcaecati eius exercitationem alias neque architecto excepturi est,
+        dolorem, aliquam at aliquid animi reprehenderit reiciendis veniam optio soluta! Dignissimos, repellat amet.
+        Animi mollitia, tempora fuga quae inventore libero omnis ipsum dolorem quisquam eum! Consequatur earum, non
+        odio deserunt unde saepe quaerat quae doloremque quos facilis, inventore ullam! Quo omnis temporibus modi.
+      </p>
+    </section>
+
+    <section>
+      <h2 id="Hippopotamus">Hippopotamus</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. A laborum cumque debitis quae inventore nesciunt,
+        consequuntur amet optio ducimus suscipit cum et beatae in magnam illo repudiandae nemo eius sint porro
+        itaque ipsum ea consectetur! Repellat id quidem cupiditate numquam esse eum deleniti facere, ad quisquam aut
+        excepturi. Aut cum possimus quo molestiae ratione, ea magni quibusdam. Accusamus et, aperiam earum delectus
+        quod rem adipisci aspernatur quo explicabo molestiae obcaecati minus repellendus nihil ea, sint repudiandae
+        omnis ut, vel dolor vero veritatis. Perspiciatis, tempora? Itaque veritatis vero aut reprehenderit, esse
+        fuga quam ratione molestias quidem, voluptates quia obcaecati sapiente eveniet.
+      </p>
+    </section>
