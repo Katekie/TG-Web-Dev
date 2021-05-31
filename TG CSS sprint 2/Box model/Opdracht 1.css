@@ -1,0 +1,21 @@
+.tekstregel { 
+background-color: lightgreen;
+width: 60%;
+}
+
+p {
+    display: block;
+    border: 1px black;
+    background-color: darkgreen;
+  }
+
+p {
+    border: 1px black;
+    background-color: darkgreen;
+}
+ 
+span {
+    background-color: white;
+    width: 50px; height: 200;
+}
+  
