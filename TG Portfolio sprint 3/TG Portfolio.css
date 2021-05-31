@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    font-family: Yanone;
+    font-size: 16px;
+    background-image: url("Background\ lake.JPG");
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+  
+.box:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+/* body:hover {
+    background-color: darkgreen
+    cursor: pointer;
+    transition: background-color 2s ease-out;
+  } */
+
+ .top{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(90, 136, 204);
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.8;
+ }
+
+nav {
+z-index: 100;
+ }
+
+  nav ul {
+    display: block;
+    text-align: center;
+    font-size: 20px;  
+  }
+
+  nav li {
+    display: inline;
+    margin: 0 30px 0 0;
+    color: darkblue;
+    font-family: PT serif;
+  }
+
+.top li:hover {
+  color: darkcyan;
+}
+
+  .logo {
+    height: 115px;
+    width: 80px;
+    margin: auto;
+    background-image: url("Foto.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 80px;
+    border: lightskyblue solid 3px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+  }
+
+h1 {
+justify-content: center;
+text-align: center;
+color: darkblue;
+font-family: PT serif;
+margin-bottom: 20px;
+}
+
+h2 {
+justify-content: space-around;
+text-align: center;
+color: darkblue;
+font-family: PT serif;
+background-color:
+}
+
+.text {
+  font-size: 20px;
+  padding: 30px;
+  text-align: center;
+  color: darkblue;
+  margin-bottom: 50px;
+  }
+
+.row {
+  color: darkblue;
+  text-align: justify;
+  justify-content: center;
+}
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .gallery-item {
+    margin: 20px;
+  }
+
+  .gallery-item .thumbnail {
+    width: 125px;
+    border: lightskyblue solid 3px;
+    border-radius: 10px;
+  }
+
+.col-4 h5{
+background-color: rgb(90, 136, 204);
+opacity: 0.8;
+font-family: PT serif;
+}
+
+.contact{
+  font-family: PT serif;
+  text-align: center;
+  margin-bottom: 20px;
+  color: darkblue; 
+}
+ 
+.fa-linkedin-square {
+background: white;
+} 
+
+.footer {
+text-align: center;
+color: lightsteelblue;
+width: 100%;
+}
